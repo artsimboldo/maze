@@ -1,7 +1,7 @@
 # maze
 maze generator in Go
 
-```
+``` Go
 prim := Prim{Width:20, Height:20, Seed:int64(0)}
 if _, err := prim.Generate(); err != nil {
 	fmt.Println(prim.String())
